@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.crud-title {
+    text-align: center;
+}
+
+.crud-form {
+    display: flex;
+    margin: 10px 0;
+}
+
+.form-input {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button-primary {
+    background-color: green;
+    color: white;
+}
+
+.button-secondary {
+    background-color: orange;
+    color: white;
+}
+
+.button-tertiary {
+    background-color: red;
+    color: white;
+}
+
+input {
+    font-family: "Montserrat", sans-serif;
+}
+
+.crud-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header, .table-body td {
+    border: 1px solid rgb(208, 208, 208);
+    padding: 8px;
+}
+
+.table-header {
+    background-color: lemonchiffon;
+}
+
+.table-body td:nth-child(3) {
+    display: flex;
+    justify-content: space-around;
+}

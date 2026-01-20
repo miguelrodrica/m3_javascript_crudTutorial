@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD | Miguel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="crud">
+            <h1 class="crud-title">CRUD de Usuarios</h1>
+            <form id="formRegister" class="crud-form">
+                <input type="text" placeholder="Nombre" id="nameInput" class="form-input">
+                <input type="email" placeholder="Email" id="emailInput" class="form-input">
+                <button type="submit" id="submitButton" class="button button-primary">Guardar</button>
+            </form>
+            <table class="crud-table">
+                <thead>
+                    <tr>
+                        <th class="table-header">Nombre</th>
+                        <th class="table-header">Email</th>
+                        <th class="table-header">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody" class="table-body">
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
